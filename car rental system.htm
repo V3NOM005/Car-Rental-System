@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>Car Rental System</title>
+        <link rel="stylesheet" href="website.css">
+        <style> 
+            form {
+            width:1200px;
+            margin-left:400px;
+            }
+            input{
+            padding:4px 10px;
+            border:0;
+            font-size:16px;
+            }
+            .search {
+            width: 25%;
+            }
+            .submit{
+            width: 80px;
+            background-color: red;
+            color:#ffffff;
+            }
+            hr{
+                border-top: 1px solid black;
+            }
+            
+            
+          </style>
+    </head>
+    <body bgcolor="grey ">
+        <header>
+            <img class="logo" src="LOGO.png"/>
+        <nav>
+            
+            <ul class="nav_links">
+            <li><a href="#"><b>Home</b></a></li>
+            <li><a href="signup.htm"><b>Signup</b></a></li>
+            <li><a href="login.htm"><b>Login</b></a></li>
+            <li><a href="manage bookings.htm"><b>Manage Bookings</b></a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#" ><button class="button">Popular Locations</button></a>
+        </header>
+        <hr>
+        <h1 class="h1"><marquee > WELCOME TO MINI MILES</marquee></h1>
+        <h2 class="h2">Car Here-</h2>
+        <form > 
+            <input  type="text" name=text" class="search" placeholder="Search here!">
+            <input  type="submit" name="submit" class="submit" value="Search">
+            <input  type="submit" name="submit" class="submit" value="Save">
+            <input  type="submit" name="submit" class="submit" value="Compare">
+          </form>
+          <br>
+        <img class="image"src="images.jpg"/>
+        <hr>
+       <form >
+        <div id="login-box">
+            <div class="left-box">
+           <b class="b1">Lets find your ideal car</b><br>
+           Pickup Location<br><br>
+           <select class="select"
+           >
+  <option value="Banglore">Banglore</option>
+  <option value="Mumbai">Mumbai</option>
+  <option value="Delhi">Delhi</option>
+  <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+  <br>
+</select><br>
+<label for="date">Pickup Date<br></label><br>
+<input type="date" id="date" name="date"/><br>
+<label for="date">Drop off Date<br></label><br>
+<input type="date" id="date" name="date"/>
+<br><b class="b1">
+Purpose of rental</b>
+    <label for ="Buisness">Buisness</label>
+    <input type="radio"  name="Purpose of rental" id="Buisness" value="Buisness" >
+    <label for ="Commerce">Commerce</label>
+    <input type="radio"  name="Purpose of rental" id="Commerce" value="commerce" ><br><br><br>
+    Timings<br><br>
+    <input type="time" value="time" id ="time"/> 
+
+<input  type="submit" name="submit" class="submit" value="submit">
+</div>
+<div class="right-box">
+    <b id="bold">Our most popular destinations </b>
+    <br>
+    <div class="banglore">
+        <img src="banglore.jfif"/>
+        <p> <b>BANGLORE</b><br>Bengaluru,a city of experiments and technology. </p></div>
+        <div class="jk">
+            <img src="jk.jpg"/>
+            <p > <b>Jammu and Kashmir</b><br>Being home for many tourists, a great sight to visit. </p></div>
+            <div class="mumbai">
+                <img src="mumbai.jpg"/>
+                <p > <b>Mumbai</b><br>
+                A city named as mayanagri,let your dreams come true. </p></div>
+                <div class="delhi">
+                    <img src="delhi.jpg"/>
+                    <p > <b>Delhi</b><br>The capital of one of  the greateast democratic nation.</p></div>
+    </div>
+    </div>
+</form> 
+    </body>
+</html>

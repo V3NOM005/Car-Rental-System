@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+    font-size:19px;
+    color:black;
+    font-family: sans-serif;
+    font-weight: 200;
+
+}
+#login-box
+{
+    position: relative;
+    width:1500px;
+    margin:5%auto;
+    margin-top:25px;
+    background:url(bookings.jpg);
+    background-size: cover;
+    height: 630px;
+    color:white;
+    box-shadow:0 2px 4px rgba(0,0,0,0.6);
+}
+.left-box
+{
+position: absolute;
+top:0;
+left:0;
+box-sizing: border-box;
+padding: 50px;
+width: 500px;
+height: 629px; 
+}
+h1{
+    margin:0 0 20px 0;
+    font-weight: 500;
+    font-size: 38px;
+}
+input[type="name"],input[type="date"],#State,input[type="number"]
+{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height:32px;
+    border: none;
+    outline: none;
+    border-bottom:1px solid black;
+    font-family:sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    transition: 0.2s ease;
+
+}
+input[type="submit"]
+{
+    margin-bottom: 28px;
+    width: 120px;
+    height:32px;
+    background:#f44336 ;
+    border: none;
+    border-radius: 2px;
+    color:#fff;
+    font-family:sans-serif;
+    font-weight: 500;
+    text-transform:uppercase;
+    transition: 0.2s ease;
+    cursor:pointer;
+}
+input[type="submit"]:hover,input[type="submit"]:focus
+{
+    background: #ff5722;
+    transition:0.2s ease;
+
+}
+.right-box
+{
+   position:absolute;
+    top:0;
+    right:0;
+    box-sizing: border-box;
+    padding:100px;
+    width:800px;
+    height:400px;
+    display:block;
+    margin-bottom: 40px;
+    font-size: 28px;
+    color:white;
+    
+
+    text-align:center;
+    text-shadow:0 2px 4px rgba(0,0,0,0.6);
+
+}
+button.social1{
+    margin-bottom: 20px;
+    width: 220px;
+    height: 45px;
+   margin-right:-90%;
+    border: none;
+    border-radius: 2px;
+    color:white;
+    background:orange;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor:pointer;
+
+}
+#h1
+{
+    font-style:oblique;
+    font-weight:58;
+}
+a
+{
+text-decoration: none;
+display: inline-block;
+padding: 8px 16px;
+}
+
+a:hover {
+background-color:red;
+color: black;
+}
+
+.previous {
+background-color:black;
+color:white;
+}
+
+.next {
+    background-color:black;
+    color:white;
+    width:70px;
+    }
+
